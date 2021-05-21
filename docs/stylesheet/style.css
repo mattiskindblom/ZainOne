@@ -130,6 +130,10 @@ body{
   margin-left: 130px; margin-right: 130px; background-color: white; color: black; padding-left: 20px; padding-right: 20px; padding-bottom: 30px; padding-top: 2rem; margin-top: 3rem; border-radius: 8px;
 }
 
+.Discord {
+  padding-top: 10rem; height: 700px; margin: 0 auto; display: block; width: 40%;
+}
+
 footer{
   position: absolute;
   background: #111;
@@ -208,6 +212,9 @@ footer{
 @media (max-width: 1050px) {
   .inner_header  {width: 800px;
   }
+  .Discord {
+    width: 70%;
+  }
 }
 
 
@@ -217,6 +224,7 @@ footer{
                   padding-right: 10px;
                   padding-left: 10px;
   }
+
 }
 
 @media (max-width: 850px) {
@@ -231,11 +239,16 @@ footer{
   .outer_kropp {
     width: 95%;
   }
+  .Discord {
+    width: 80%;
+  }
 }
 
 @media (max-width: 650px) {
   .inner_header  {width: 500px;
+  
   }
+
 }
 
 
